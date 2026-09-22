@@ -1,0 +1,44 @@
+db  | 
+db  | PostgreSQL Database directory appears to contain a database; Skipping initialization
+db  | 
+db  | 2026-09-22 05:42:23.500 UTC [1] LOG:  starting PostgreSQL 16.15 (Debian 16.15-1.pgdg13+2) on x86_64-pc-linux-gnu, compiled by gcc (Debian 14.2.0-19) 14.2.0, 64-bit
+db  | 2026-09-22 05:42:23.500 UTC [1] LOG:  listening on IPv4 address "0.0.0.0", port 5432
+db  | 2026-09-22 05:42:23.500 UTC [1] LOG:  listening on IPv6 address "::", port 5432
+db  | 2026-09-22 05:42:23.505 UTC [1] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5432"
+db  | 2026-09-22 05:42:23.509 UTC [29] LOG:  database system was shut down at 2026-09-22 05:42:22 UTC
+db  | 2026-09-22 05:42:23.515 UTC [1] LOG:  database system is ready to accept connections
+db  | 2026-09-22 05:43:44.755 UTC [45] FATAL:  database "db" does not exist
+db  | 2026-09-22 05:44:18.146 UTC [54] FATAL:  database "db" does not exist
+db  | 2026-09-22 05:44:26.157 UTC [62] FATAL:  database "db" does not exist
+db  | 2026-09-22 05:44:29.848 UTC [69] FATAL:  database "db" does not exist
+db  | 2026-09-22 05:47:23.609 UTC [27] LOG:  checkpoint starting: time
+db  | 2026-09-22 05:47:23.927 UTC [27] LOG:  checkpoint complete: wrote 6 buffers (0.0%); 0 WAL file(s) added, 0 removed, 0 recycled; write=0.304 s, sync=0.003 s, total=0.319 s; sync files=5, longest=0.002 s, average=0.001 s; distance=0 kB, estimate=0 kB; lsn=0/19643F0, redo lsn=0/19643B8
+backend  | ◇ injected env (0) from .env
+backend  | Backend running on port 5555
+backend  | DB_HOST = db
+backend  | DB_NAME = mydb
+backend  | APP_PORT = 5555
+backend  | Backend running on port 5555
+frontend  | 
+frontend  | > frontend@0.1.0 start
+frontend  | > react-scripts start
+frontend  | 
+frontend  | (node:26) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+frontend  | (Use `node --trace-deprecation ...` to show where the warning was created)
+frontend  | (node:26) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+frontend  | Starting the development server...
+frontend  | 
+frontend  | Compiled successfully!
+frontend  | 
+frontend  | You can now view frontend in the browser.
+frontend  | 
+frontend  |   Local:            http://localhost:3000
+frontend  |   On Your Network:  http://10.20.1.4:3000
+frontend  | 
+frontend  | Note that the development build is not optimized.
+frontend  | To create a production build, use npm run build.
+frontend  | 
+frontend  | webpack compiled successfully
+frontend  | Compiling...
+frontend  | Compiled successfully!
+frontend  | webpack compiled successfully
