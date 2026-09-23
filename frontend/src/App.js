@@ -7,7 +7,7 @@ function App() {
 	  const [email, setEmail] = useState("");
 	  const [editId, setEditId] = useState(null);
 
-	  const API_URL = "http://127.0.0.1:5555/users";
+	  const API_URL = "http://43.205.255.38:5555/users";
 
 	  const fetchUsers = () => {
 		      fetch(API_URL)
